@@ -6,8 +6,13 @@ description: |
 enforce_ssl: "2021.djangocon.us"
 relative_permalinks: false
 permalink: news/:title/  # permalink: date
-timezone: America/Chicago
+timezone: Europe/Madrid
 conf_year: 2021
+
+sass:
+  sass_dir: _sass
+  style: :compressed # Esto puede ser :expanded o :compressed según tu preferencia
+
 
 include:
   - _pages
